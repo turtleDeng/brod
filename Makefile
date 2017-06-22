@@ -40,7 +40,7 @@ endif
 ## To avoid building a relese when brod is used as a erlang.mk project's dependency
 app::
 
-include erlang.mk
+include ./erlang.mk
 
 rel:: escript
 	cp $(ESCRIPT_FILE) _rel/brod/bin/brod
